@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "CordovaTest1", "CordovaTest1\CordovaTest1.jsproj", "{4A9DDBB5-B165-46C4-BE4A-7F02CF266285}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Android = Debug|Android
+		Debug|Any CPU = Debug|Any CPU
+		Release|Android = Release|Android
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A9DDBB5-B165-46C4-BE4A-7F02CF266285}.Debug|Android.ActiveCfg = Debug|Android
+		{4A9DDBB5-B165-46C4-BE4A-7F02CF266285}.Debug|Android.Deploy.0 = Debug|Android
+		{4A9DDBB5-B165-46C4-BE4A-7F02CF266285}.Debug|Any CPU.ActiveCfg = Debug|Android
+		{4A9DDBB5-B165-46C4-BE4A-7F02CF266285}.Release|Android.ActiveCfg = Release|Android
+		{4A9DDBB5-B165-46C4-BE4A-7F02CF266285}.Release|Android.Deploy.0 = Release|Android
+		{4A9DDBB5-B165-46C4-BE4A-7F02CF266285}.Release|Any CPU.ActiveCfg = Release|Android
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

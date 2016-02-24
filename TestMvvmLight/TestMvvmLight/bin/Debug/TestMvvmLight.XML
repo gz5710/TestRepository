@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestMvvmLight</name>
+    </assembly>
+    <members>
+        <member name="M:TestMvvmLight.Model.MySqlDataItemService.GetItem">
+            <summary>
+            Get a dataitem from MySQL database.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TestMvvmLight.Model.OracleDataItemService.GetItem">
+            <summary>
+            Get a dataitem from Oracle Database.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:TestMvvmLight.View2">
+            <summary>
+            Description for View2.
+            </summary>
+            <summary>
+            View2
+            </summary>
+        </member>
+        <member name="M:TestMvvmLight.View2.#ctor">
+            <summary>
+            Initializes a new instance of the View2 class.
+            </summary>
+        </member>
+        <member name="M:TestMvvmLight.View2.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:TestMvvmLight.ViewModel.MainViewModel">
+            <summary>
+            This class contains properties that the main View can data bind to.
+            <para>
+            See http://www.mvvmlight.net
+            </para>
+            </summary>
+        </member>
+        <member name="F:TestMvvmLight.ViewModel.MainViewModel.WelcomeTitlePropertyName">
+            <summary>
+            The <see cref="P:TestMvvmLight.ViewModel.MainViewModel.WelcomeTitle" /> property's name.
+            </summary>
+        </member>
+        <member name="P:TestMvvmLight.ViewModel.MainViewModel.WelcomeTitle">
+            <summary>
+            Gets the WelcomeTitle property.
+            Changes to that property's value raise the PropertyChanged event. 
+            </summary>
+        </member>
+        <member name="M:TestMvvmLight.ViewModel.MainViewModel.#ctor(TestMvvmLight.Model.IDataService,TestMvvmLight.Model.IDataItemService)">
+            <summary>
+            Initializes a new instance of the MainViewModel class.
+            </summary>
+        </member>
+        <member name="T:TestMvvmLight.ViewModel.ViewModel2">
+            <summary>
+            This class contains properties that a View can data bind to.
+            <para>
+            See http://www.galasoft.ch/mvvm
+            </para>
+            </summary>
+        </member>
+        <member name="M:TestMvvmLight.ViewModel.ViewModel2.#ctor(TestMvvmLight.SimpleIocTest.DataItemManager)">
+            <summary>
+            Initializes a new instance of the ViewModel2 class.
+            </summary>
+        </member>
+        <member name="T:TestMvvmLight.ViewModel.ViewModelLocator2">
+            <summary>
+            This class contains static references to all the view models in the
+            application and provides an entry point for the bindings.
+            <para>
+            See http://www.galasoft.ch/mvvm
+            </para>
+            </summary>
+        </member>
+        <member name="P:TestMvvmLight.ViewModel.ViewModelLocator2.VM2">
+            <summary>
+            Gets the Main property.
+            </summary>
+        </member>
+        <member name="T:TestMvvmLight.ViewModel.ViewModelLocator">
+            <summary>
+            This class contains static references to all the view models in the
+            application and provides an entry point for the bindings.
+            <para>
+            See http://www.mvvmlight.net
+            </para>
+            </summary>
+        </member>
+        <member name="P:TestMvvmLight.ViewModel.ViewModelLocator.Main">
+            <summary>
+            Gets the Main property.
+            </summary>
+        </member>
+        <member name="M:TestMvvmLight.ViewModel.ViewModelLocator.Cleanup">
+            <summary>
+            Cleans up all the resources.
+            </summary>
+        </member>
+        <member name="T:TestMvvmLight.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:TestMvvmLight.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:TestMvvmLight.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:TestMvvmLight.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:TestMvvmLight.MainWindow.#ctor">
+            <summary>
+            Initializes a new instance of the MainWindow class.
+            </summary>
+        </member>
+        <member name="M:TestMvvmLight.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:TestMvvmLight.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:TestMvvmLight.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:TestMvvmLight.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

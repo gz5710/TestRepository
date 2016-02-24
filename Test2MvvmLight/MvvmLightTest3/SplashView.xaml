@@ -1,0 +1,14 @@
+﻿<Window x:Class="MvvmLightTest3.SplashView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ignore="http://www.galasoft.ch/ignore"
+        mc:Ignorable="d ignore"
+        DataContext="{Binding Main, Source={StaticResource Locator}}">
+
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="132,80,0,0" TextWrapping="Wrap" Text="Splash Screen" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="132,195,0,0" TextWrapping="Wrap" Text="{Binding WelcomeTitle, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
