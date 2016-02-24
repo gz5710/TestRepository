@@ -1,0 +1,14 @@
+C:\Users\bruce\Desktop\SplashDemo\bin\Debug\SplashDemo.exe
+C:\Users\bruce\Desktop\SplashDemo\bin\Debug\SplashDemo.pdb
+C:\Users\bruce\Desktop\SplashDemo\obj\Debug\SplashDemo.csprojResolveAssemblyReference.cache
+C:\Users\bruce\Desktop\SplashDemo\obj\Debug\MainWindow.baml
+C:\Users\bruce\Desktop\SplashDemo\obj\Debug\MainWindow.g.cs
+C:\Users\bruce\Desktop\SplashDemo\obj\Debug\SplashScreen.g.cs
+C:\Users\bruce\Desktop\SplashDemo\obj\Debug\SplashDemo_MarkupCompile.cache
+C:\Users\bruce\Desktop\SplashDemo\obj\Debug\SplashDemo_MarkupCompile.lref
+C:\Users\bruce\Desktop\SplashDemo\obj\Debug\SplashScreen.baml
+C:\Users\bruce\Desktop\SplashDemo\obj\Debug\SplashDemo.g.resources
+C:\Users\bruce\Desktop\SplashDemo\obj\Debug\SplashDemo.Properties.Resources.resources
+C:\Users\bruce\Desktop\SplashDemo\obj\Debug\SplashDemo.csproj.GenerateResource.Cache
+C:\Users\bruce\Desktop\SplashDemo\obj\Debug\SplashDemo.exe
+C:\Users\bruce\Desktop\SplashDemo\obj\Debug\SplashDemo.pdb
