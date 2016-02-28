@@ -23,6 +23,8 @@ namespace MvvmLightTest3.ViewModel
 
         private string _welcomeTitle = string.Empty;
 
+        public SplashScreenVM SplashScreen { get; set; }
+
         /// <summary>
         /// Gets the WelcomeTitle property.
         /// Changes to that property's value raise the PropertyChanged event. 
@@ -43,7 +45,7 @@ namespace MvvmLightTest3.ViewModel
         /// <summary>
         /// Initializes a new instance of the MainViewModel class.
         /// </summary>
-        public MainViewModel(IDataService dataService)
+        public MainViewModel(IDataService dataService, SplashScreenVM ssvm)
         {
             _dataService = dataService;
             _dataService.GetData(
@@ -57,12 +59,16 @@ namespace MvvmLightTest3.ViewModel
 
                     WelcomeTitle = item.Title;
                 });
+            this.SplashScreen = ssvm;
             Task.Run(
                 async () =>
                 {
                     await Task.Delay(4000);
                     //this.WelcomeTitle = "Test";
-                    await DispatcherHelper.RunAsync(() => { this.WelcomeTitle = "Test"; });
+                    await DispatcherHelper.RunAsync(() => {
+                        this.WelcomeTitle = "Test";
+                        this.SplashScreen.WelcomeTitle = "Second Title";
+                    });
                     //DispatcherHelper2.DoEvents();
                 });
         }

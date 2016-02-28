@@ -39,6 +39,7 @@ namespace MvvmLightTest3.ViewModel
             }
 
             SimpleIoc.Default.Register<MainViewModel>();
+            SimpleIoc.Default.Register<SplashScreenVM>();
         }
 
         /// <summary>

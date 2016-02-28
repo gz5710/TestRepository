@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:ignore="http://www.galasoft.ch/ignore"
         mc:Ignorable="d ignore"
-        DataContext="{Binding Main, Source={StaticResource Locator}}">
+        DataContext="{Binding Main.SplashScreen, Source={StaticResource Locator}}">
 
     <Grid>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="132,80,0,0" TextWrapping="Wrap" Text="Splash Screen" VerticalAlignment="Top"/>
